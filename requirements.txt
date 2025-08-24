@@ -1,0 +1,41 @@
+# Core ML/AI dependencies
+tensorflow==2.13.0
+keras==2.13.1
+numpy==1.24.3
+scikit-learn==1.3.0
+
+# Poker-specific libraries
+treys==0.1.8
+
+# Reinforcement Learning
+gym==0.26.2
+stable-baselines3==2.0.0
+
+# Web frameworks
+streamlit==1.28.0
+flask==2.3.3
+flask-cors==4.0.0
+flask-socketio==5.3.6
+
+# Data science and visualization
+pandas==2.0.3
+matplotlib==3.7.2
+plotly==5.17.0
+seaborn==0.12.2
+
+# Utility libraries
+requests==2.31.0
+python-socketio[client]==5.9.0
+python-engineio==4.7.1
+
+# Development and testing
+pytest==7.4.2
+jupyter==1.0.0
+ipykernel==6.25.2
+
+# Optional: For production deployment
+gunicorn==21.2.0
+redis==5.0.0
+
+# Optional: For GPU acceleration (uncomment if you have CUDA)
+# tensorflow-gpu==2.13.0
